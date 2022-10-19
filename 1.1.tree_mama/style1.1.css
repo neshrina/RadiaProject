@@ -1,0 +1,218 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+  6. Page Styles
+======================================== */
+
+
+/* universel styles */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243,236,230);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+h2 {
+  font-family: 'Imperial Script', cursive;
+}
+
+
+/* header */
+
+header {
+  background-color: #efcead;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  z-index: 3;
+
+}
+
+
+main {
+  position:relative;
+  padding: 20px 15px;
+  margin-bottom: 60px;
+  text-align: center;  
+}
+
+/*rgb(217,202,186);*/
+
+h1 {
+  font-family:'Montserrat Alternates', sans-serif;
+  background-color: #efcead;
+  text-align: center;
+  letter-spacing: 12px;
+  font-size: 55px;
+  color: #885A3A;
+  padding: 20px 0;
+  margin-top: 100px; 
+}
+
+h2 {
+  font-size: 25px;
+  letter-spacing: 3px;
+  height: 70px; 
+  color: white;
+  background-color: rgb(164,97,78);
+  line-height: 70px;
+  margin-top: 0;
+  border-radius: 9px;
+  text-align: center;  
+}
+
+h3 {
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-size: 22px;
+  height: 60px; 
+  color: rgb(116,108,105);
+  line-height: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;  
+}
+
+
+p,
+.text ul  {
+  font-family:'Nanum Gothic', sans-serif;
+  color: rgb(91,85,83);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  margin: 5px 40px 20px 40px;
+  
+}
+
+/* nav */
+
+nav {
+  margin: 0;
+  padding: 20px auto;
+}
+
+nav li {
+  color: rgb(157,102,72);
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  width: 60px;
+  position: relative;
+}
+
+#home{
+  position: absolute;
+  right: 50px;
+  top:15px;
+}
+
+.vertical-line{
+  position: absolute;
+  border-left: 2px solid rgb(183,176,174);
+  display: inline-block;
+  height: 7700px;
+  margin: 0 20px;
+}
+
+.item {
+  display: grid;
+  grid-template: 1fr / 50% 50% ;
+  margin: 60px 80px 20px 40px;
+  
+}
+
+.text {
+  margin: 5px 60px 0 40px;
+}
+
+.img1 {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  background-color: #f3e3d3;
+  z-index: 1;
+  margin-top: 80px;
+}
+
+.img2 {
+  background-color: #f3e3d3;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  z-index: 1;
+  margin-top: 80px;
+  margin-left:80px;
+}
+
+.img3 {
+  background-color: #f3e3d3;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  z-index: 1;
+  margin-top: 80px;
+}
+
+.img4 {
+  background-color: #f3e3d3;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  z-index: 1;
+  margin-top: 80px;
+  margin-left:80px;
+}
+
+.ombre1 {
+  background-color: rgb(151,80,48);
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin-left: 260px; 
+}
+
+
+.ombre3 {
+  background-color: rgb(87,87,87);
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin-left: 260px;
+}
+
+
+.ombre2 {
+  background-color: rgb(216,209,205);
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin-right: 260px;
+}
+
+.ombre4 {
+  background-color: rgb(189,157,125);
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin-right: 260px; 
+}
+
+
+
+
+
+/* footer */
+
+
+
